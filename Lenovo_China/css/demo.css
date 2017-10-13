@@ -1,0 +1,72 @@
+@charset "utf-8";
+body,p,ul,ol,li,h3,input,span,form,textarea{margin: 0;padding: 0;}
+img{border:0;display: block; vertical-align: top;}
+a{text-decoration: none;}
+.banner_jsd{
+	width: 1423px;
+    height: 466px;
+    overflow: hidden;
+    position: relative;
+}
+.banner_jsd ul{
+	position: relative;
+    left: 0%;
+    width: 200%;
+    height: 466px;
+}
+.banner_jsd ul li{
+	width: 1423px;
+    float: left;
+    list-style: none;
+}
+.banner_jsd ul li a{
+	display: block;
+	width: 1423px;
+}
+.banner_jsd ul li a img{
+	width: 100%;
+	height: 100%;
+}
+.banner_jsd .dots{
+	position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 5px;
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
+    opacity: 0.9;
+}
+.banner_jsd .dots div{
+	width: 420px;
+    margin: 0 auto;
+}
+.banner_jsd .dots li{
+	float: left;
+    line-height: 40px;
+    width: 195px;
+    border-bottom: 2px solid;
+    cursor: pointer;
+    height: 60px;
+    margin-top: 20px;
+    background: rgb(234,234,234);
+    list-style: none;
+}
+.banner_jsd .dots .dot2{
+	margin-left: 20px;
+}
+.banner_jsd .dots .active{
+	height: 63px;
+    line-height: 63px;
+    margin-top: 0;
+}
+.banner_jsd .dots li a{
+	display: block;
+	font-size: 15px;
+	color: #7f7f7f;
+}
+.demo_body{
+	background: url(../images/3.jpg) top center no-repeat;
+    width: 100%;
+    height: 1039px;
+}

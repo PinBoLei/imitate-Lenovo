@@ -1,0 +1,52 @@
+require.config({
+	paths:{
+		jquery:"jquery-1.11.3",
+		cookie:"jquery.cookie",
+		data:"data",
+		demo:"demo",
+		enroll:"enroll",
+		goods:"goods",
+		imgs:"imgs",
+		index:"index",
+		login:"login",
+		common:"common",
+		shopCart:"shopCart",
+		star:"star",
+		magnifying:"magnifying"
+	}
+})
+
+require(["jquery","cookie","index"],function($,$,index){
+	index.index();
+})
+require(["jquery","demo"],function($,demo){
+	demo.demo();
+})
+require(["jquery","cookie","common"],function($,$,common){
+	common.common();
+})
+require(["jquery","data"],function($,data){
+	data.data();
+})
+require(["jquery","imgs"],function($,imgs){
+	imgs.imgs();
+})
+require(["jquery","star"],function($,star){
+	star.star();
+})
+require(["jquery","cookie","login"],function($,$,login){
+	login.login();
+})
+
+require(["jquery","cookie","enroll"],function($,$,enroll){
+	enroll.enroll();
+})
+require(["jquery","goods"],function($,goods){
+	goods.goods();
+})
+require(["jquery","cookie","shopCart"],function($,$,shopCart){
+	shopCart.shopCart();
+})
+require(["jquery","magnifying"],function($,magnifying){
+	magnifying.magnifying();
+})

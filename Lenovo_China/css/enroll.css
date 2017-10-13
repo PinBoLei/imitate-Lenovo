@@ -1,0 +1,173 @@
+body,p,ul,li,h1,h3,input,span,form,textarea{margin: 0;padding: 0;}
+img{border:0;display: block; vertical-align: top;}
+a{text-decoration: none;}
+input{outline: 0;border:0;}
+.enroll{
+	position: fixed;
+	width: 429px;
+	margin-left: -215px;
+	top: 100px;
+    z-index: 100001;
+    background: #fff;
+    left: 50%;
+}
+.enroll .enroll_title{
+    width: 429px;
+    height: 37px;
+    background-color: #000;
+    position: relative;
+}
+.enroll .enroll_title h1{
+	float: left;
+    font-size: 18px;
+    line-height: 36px;
+    padding-left: 15px;
+    color: #fff;
+    font-weight: 400;
+    text-align: left;
+}
+.enroll .enroll_title a{
+	opacity: 1;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    background: url(../images/ico_close.png);
+}
+.enroll .enroll_inputa{
+    height: 26px;
+	font-size: 14px;
+    color: #000;
+    width: 360px;
+    border: 1px solid #c2c2c2;
+    margin: 15px auto 0;
+}
+.enroll .enroll_inputa label,.enroll_inputb label,.enroll_inputc label,.enroll_inputd label{
+	font-size: 12px;
+    width: 60px;
+    height: 26px;
+    line-height: 26px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #c2c2c2;
+	display: inline-block;
+    text-align: justify;
+    text-align-last: justify;
+    float: left;
+}
+.enroll .enroll_inputa input,.enroll_inputb input,.enroll_inputc input{
+	width: 250px;
+	height: 26px;
+    padding-left: 10px;
+    line-height: 26px;
+}
+.enroll .enroll_hinta,.enroll_hintb,.enroll_hintc,.enroll_hintd{
+	height: 15px;
+    width: 360px;
+    margin: 2px auto 0;
+}
+.enroll .enroll_hinta p,.enroll_hintb p,.enroll_hintc p,.enroll_hintd p{
+	color: #ef1c22;
+	line-height: 15px;
+	text-align: left;
+	font-size: 12px;
+}
+.enroll .enroll_inputb{
+	height: 26px;
+	font-size: 14px;
+    width: 360px;
+    color: #000;
+    border: 1px solid #c2c2c2;
+    margin: 15px auto 0;
+}
+.enroll .enroll_inputc{
+	height: 26px;
+	font-size: 14px;
+    width: 360px;
+    color: #000;
+    border: 1px solid #c2c2c2;
+    margin: 10px auto 0;
+}
+.enroll .enroll_inputd{
+	width: 419px;
+    height: 26px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    padding-left: 33px;
+}
+.enroll .enroll_inputd .inputd{
+    font-size: 14px;
+    color: #000;
+    float: left;
+    border: 1px solid #c2c2c2;
+    overflow: hidden;
+}
+.enroll .enroll_inputd .inputd input{
+	width: 106px;
+	height: 26px;
+    padding-left: 9px;
+    line-height: 26px;
+    font-size: 12px;
+    display: block;
+    float: left;
+}
+.enroll .enroll_inputd img{
+	width: 120px;
+	height: 28px;
+	float: left;
+	padding-left: 3px;
+	display: inline-block;
+	cursor: pointer;
+}
+.enroll .enroll_inputd span{
+	font-size: 12px;
+	height: 26px;
+	height: 26px;
+	padding-left: 2px;
+	color: #000;
+	cursor:pointer;
+}
+.enroll .enroll_inputd button{
+	width: 120px;
+	height: 28px;
+    background: #c2c2c2;
+    border: none;
+    font-size: 12px;
+    margin-left: 3px;
+}
+.enroll .enroll_main{
+	width: 429px;
+    height: 20px;
+    margin-left: 34px;
+    margin-top: 10px;
+}
+.enroll .enroll_main input{
+	float: left;
+	margin-right: 5px;
+}
+.enroll .enroll_main label p{
+	width: 300px;
+	line-height: 18px;
+	font-size: 12px;
+}
+.enroll .enroll_main label p a{
+	font-size: 12px;
+}
+.enroll .enroll_btn{
+	width: 360px;
+    height: 26px;
+    background-color: #ef1c22;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto 20px;
+}
+.enroll .enroll_btn a{
+	font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    display: block;
+    text-align: center;
+}

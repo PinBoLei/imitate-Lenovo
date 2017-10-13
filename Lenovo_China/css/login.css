@@ -1,0 +1,173 @@
+body,p,ul,li,h3,input,span,form,textarea{margin: 0;padding: 0;}
+img{border:0;display: block; vertical-align: top;}
+a{text-decoration: none;}
+input{outline: 0;}
+.login{
+	padding-bottom: 10px;
+    position: fixed;
+    width: 429px;
+    left: 50%;
+    margin-left: -215px;
+    top: 80px;
+    min-height: 340px;
+    z-index: 100001;
+    background: #fff;
+    font-size:12px;
+}
+.login .login_title{
+    width: 429px;
+    height: 40px;
+    background-color: #000;
+    text-align: center;
+    line-height: 40px;
+    font-size:12px;
+    position:relative;
+}
+.login .login_title h3{
+	color: #f10000;
+}
+.login .login_title a{
+	opacity: 1;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 18px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    background: url(../images/ico_close.png);
+}
+.login .login_inputa{
+    width: 330px;
+    height: 34px;
+    border: 1px solid #c2c2c2;
+    overflow: hidden;
+    margin: 39px auto 4px;
+}
+.login .imga,.imgb{
+	width: 34px;
+    height: 34px;
+    border-right: 1px solid #c2c2c2;
+    float: left;
+    text-align: center;
+}
+.login .login_inputa .imga img{
+	padding-top: 6px;
+	display: inline;
+}
+.login .login_inputa input{
+    border: 0;
+    width: 270px;
+    height: 32px;
+    color: #333;
+    padding-left: 10px;
+    line-height: 30px;
+    padding-top: 2px;
+    display: inline-block;
+    font-size: 12px;
+}
+.login .login_inputb{
+    width: 330px;
+    height: 34px;
+    border: 1px solid #c2c2c2;
+    position: relative;
+    margin:0 auto;
+}
+.login .login_inputb .imgb img{
+	padding-top: 6px;
+	display: inline;
+}
+.login .login_inputb input{
+	border: 0;
+    width: 280px;
+    height: 32px;
+    color: #333;
+    padding-left: 10px;
+    line-height: 32px;
+    display: inline-block;
+    font-size: 12px;
+}
+.login .login_hint{
+	height: 30px;
+    width: 330px;
+    margin:0 auto;
+}
+.login .login_hint p{
+    line-height: 30px;
+    color: #ef1c22;
+    font-size: 12px;
+}
+.login .login_main{
+	height: 30px;
+    width: 330px;
+    margin:0 auto;
+}
+.login .login_main input{
+	float: left;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+.login .login_main p{
+	line-height: 30px;
+    color: #000;
+    font-size: 12px;
+    width: 200px;
+    cursor: pointer;
+    display: inline-block;
+}
+.login .login_btn{
+	width: 330px;
+    height: 26px;
+    background-color: #ef1c22;
+    border-radius: 5px;
+    margin:0 auto;
+}
+.login .login_btn a{
+	font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+    display: block;
+}
+.login .login_footer{
+	height: 20px;
+    width: 330px;
+    margin:10px auto 0;
+}
+.login .login_footer p{
+	color: #000;
+    font-size: 12px;
+    right: 50px;
+    width: 330px;
+}
+.login .login_footer a{
+	font-size: 12px;
+}
+.login .login_footer .a1{float: left;}
+.login .login_footer .a2{float:right;}
+.login .cooperation{
+	height: 20px;
+    line-height: 20px;
+    margin: 10px auto 20px;
+    width: 330px;
+    font-size: 12px;
+    color:#000;
+}
+.login .cooperation .co_items{
+	
+}
+.login .cooperation .co_items a{
+	color: #999;
+    text-decoration: none;
+    padding: 0 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+.login .cooperation .co_items .qq{
+	padding-left: 0;
+}
+.login .cooperation .co_items a img{
+	display: inline;
+}
